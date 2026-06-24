@@ -14,6 +14,8 @@ CONFIG_EXPERT=y
 
 # Preemption behaviour.
 CONFIG_NO_HZ_IDLE=y
+CONFIG_HZ=100
+CONFIG_HIGH_RES_TIMERS=y
 CONFIG_PREEMPT_VOLUNTARY=y
 
 # Disabled ISA features.
